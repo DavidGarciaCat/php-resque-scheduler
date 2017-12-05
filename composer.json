@@ -1,12 +1,16 @@
 {
-	"name": "chrisboulton/php-resque-scheduler",
+	"name": "david-garcia/php-resque-scheduler",
 	"type": "library",
-	"description": "php-resque-scheduler is a PHP port of resque-scheduler, which adds support for scheduling items in the future to Resque.",
+	"description": "Fork of chrisboulton/php-resque-scheduler with some updates that I needed for another project",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Chris Boulton",
 			"email": "chris@bgigcommerce.com"
+		},
+		{
+			"name": "David Garcia",
+			"email": "me@davidgarcia.cat"
 		}
 	],
 	"autoload": {
@@ -18,6 +22,6 @@
 		{ "type": "git", "url": "https://github.com/chrisboulton/php-resque" }
 	],
 	"require": {
-		"chrisboulton/php-resque": "dev-master"
+		"david-garcia/php-resque": "^1.2"
 	}
 }
