@@ -5,8 +5,7 @@ php-resque-scheduler is a PHP port of [resque-scheduler](http://github.com/defun
 which adds support for scheduling items in the future to Resque.
 
 The PHP port of resque-scheduler has been designed to be an almost direct-copy
-of the Ruby plugin, and is designed to work with the PHP port of resque,
-[php-resque](http://github.com/chrisboulton/php-resque).
+of the Ruby plugin, and is designed to work with the PHP port of resque.
 
 At the moment, php-resque-scheduler only supports delayed jobs, which is the
 ability to push a job to the queue and have it run at a certain timestamp, or
@@ -16,6 +15,10 @@ for a future release.
 Because the PHP port is almost a direct API copy of the Ruby version, it is also
 compatible with the web interface of the Ruby version, which provides the
 ability to view and manage delayed jobs.
+
+## Please note
+
+This is a fork with some minor adjustments that I needed to apply for another project.
 
 ## Delayed Jobs
 
