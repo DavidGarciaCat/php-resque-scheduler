@@ -19,7 +19,7 @@
 		}
 	},
 	"repositories": [
-		{ "type": "git", "url": "https://github.com/chrisboulton/php-resque" }
+		{ "type": "git", "url": "https://github.com/david-garcia/php-resque" }
 	],
 	"require": {
 		"david-garcia/php-resque": "^1.2"
